@@ -6,8 +6,8 @@ class CurriculumVitae {
     String theme
 
     static constraints = {
-      type inList["custom", "generic"]
-      language inList ["de", "en"]
+      type inList: ["custom", "generic"]
+      language inList: ["de", "en"]
     }
 
     static hasMany = [employments: Employment,

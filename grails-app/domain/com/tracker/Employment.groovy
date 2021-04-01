@@ -12,7 +12,7 @@ class Employment {
     String position
     Date start
     Date end
-    String desciption
+    String description
 
     static constraints = {
        position    blank:false, unique: true

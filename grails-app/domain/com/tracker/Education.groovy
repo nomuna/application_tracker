@@ -13,7 +13,7 @@ class Education {
     String school
     Date start
     Date end
-    String desciption
+    String description
 
     static constraints = {
        school      blank:false, unique: true
